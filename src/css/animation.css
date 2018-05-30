@@ -1,0 +1,21 @@
+.slideup-enter {
+	max-height: 0px;
+	overflow: hidden;
+}
+
+.slideup-enter.slideup-enter-active {
+	max-height: 400px;
+	transition: all 300ms ease-in;
+	overflow: hidden;
+}
+
+.slideup-exit {
+	max-height: 400px;
+	overflow: hidden;
+}
+
+.slideup-exit.slideup-exit-active {
+	max-height: 0px;
+	transition: all 300ms ease-in;
+	overflow: hidden;
+}
